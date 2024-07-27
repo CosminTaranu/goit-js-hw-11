@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-form {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .photo-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    padding: 10px;
+  }
+  
+  .info-item {
+    margin: 5px 0;
+  }
+  
+  .load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
